@@ -6,10 +6,10 @@ body {
 
 header {
 	width:150px;
-	height:82px;
+	height:72px;
 	padding-left: 20px;
 	margin-left: 140px;
-	
+	margin-top: 10px;
 	background-color: #4aaaa5;
 	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -22,6 +22,7 @@ header {
 #navigation {
 	
 	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	height: 42px;
 	margin-left: 375px;
 	margin-top: 40px;
@@ -71,7 +72,6 @@ article {
 	margin-left: 140px;
 	margin-bottom: 40px;
 	padding-top: 30px;
-	/*padding-bottom: 40px;*/
 	padding-left: 20px;
 	padding-right:20px;
 	color: #4aaaa5;
@@ -116,6 +116,7 @@ aside {
 	height: 20px;
 	width: 190px;
 	margin-left: 5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 125%;
 	padding-bottom: 20px;
 	border-bottom: 2px solid #bbb;
@@ -165,10 +166,10 @@ footer {
 }
 
 
-#city {
+/*#city {
 	background-position: 50% 50%;
 	background-clip: padding-box;
-}
+}*/
 
 #photos {
 	margin-top: 30px;
@@ -190,11 +191,8 @@ footer {
 #photos p {
 	color: #ffffff;
 	position: absolute;
-	/*top: 75%;*/
-	/*left: 50%; */
 	transform: translate(0%, 275%);
 	color: #fff;
-	/*font-size: 75%;*/
 	text-align: center;
 	background-color: #4aaaa5;
 	width: 45.5%;
